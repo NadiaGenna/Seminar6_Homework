@@ -13,5 +13,4 @@ for (int i = 0; i < arr.Length; i++)
     {
         count++;
     }
-}
 Console.WriteLine($"Количество элементов больше 0 ->: {count}");
