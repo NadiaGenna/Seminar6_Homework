@@ -3,7 +3,7 @@
 //1, -7, 567, 89, 223-> 3
 
 Console.WriteLine("Введите количество чисел:");
-int М = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите эти числа через пробел: ");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
